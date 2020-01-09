@@ -1,0 +1,43 @@
+{
+  "name": "basketball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.7",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "moment-timezone": "^0.5.27",
+    "mongoose": "^5.8.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "react-autosuggest": "^9.4.3",
+    "react-datepicker": "^2.10.1"
+  },
+  "engines": {
+    "node": "13.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chow1340/basketball.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chow1340/basketball/issues"
+  },
+  "homepage": "https://github.com/chow1340/basketball#readme"
+}
